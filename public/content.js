@@ -63,6 +63,8 @@ function clickAllIngrediensBtn() {
     try {
         let allIngredientsBtn = document.getElementsByClassName('show-all-ingredients')[0];
         allIngredientsBtn.click();
+        allIngredientsBtn.parentNode.removeChild(allIngredientsBtn)
+
     } catch (e) {
         console.log(`Can't click allIngredientsBtn`)
     }
