@@ -1,18 +1,18 @@
 {
   "manifest_version": 2,
 
-  "name": "Recipes Extension",
+  "name": "Jul-Hachulchan Extension",
   "description": "This extension is a recipes tool",
   "version": "1.0.0",
   "page_action": {
     "default_popup": "index.html",
     "default_title": "Recipes Extension",
-    "default_icon": "recipes-icon.png"
+    "default_icon": "jul-logo.png"
   },
   "icons": {
-    "16": "recipes-icon.png",
-    "48": "recipes-icon.png",
-    "128": "recipes-icon.png"
+    "16": "jul-logo.png",
+    "48": "jul-logo.png",
+    "128": "jul-logo.png"
   },
   "background": {
     "scripts": [
