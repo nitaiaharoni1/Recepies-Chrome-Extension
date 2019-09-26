@@ -16,7 +16,7 @@ async function postItemToJulCart(item) {
             "accept-language": "en-US,en;q=0.9,he;q=0.8",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
         },
-        "body": `quantity=1&product_sku=teva_shuk_61&product_id=${item}`,
+        "body": `quantity=1&product_id=${item}`,
         "method": "POST",
         "mode": "no-cors"
     }).then(res => {
